@@ -61,7 +61,7 @@ public class GeminiController extends Controller {
                 .header("Content-Type", "application/json")
                 .build();
 
-        String apiResponseResult = ""; // 응답 결과를 저장할 변수 초기화
+        String apiResponseResult; // 응답 결과를 저장할 변수 초기화
 
 
         try {
